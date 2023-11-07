@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_median_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_median" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="99175000000fs"></ZoomStartTime>
+      <ZoomEndTime time="108595000001fs"></ZoomEndTime>
+      <Cursor1Time time="102745000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="215"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="92" />
+   <wvobject fp_name="/tb_median/DUT/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/i_reset" type="logic">
+      <obj_property name="ElementShortName">i_reset</obj_property>
+      <obj_property name="ObjectShortName">i_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/i_data_valid" type="logic">
+      <obj_property name="ElementShortName">i_data_valid</obj_property>
+      <obj_property name="ObjectShortName">i_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/i_data_in" type="array">
+      <obj_property name="ElementShortName">i_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/o_median_out" type="array">
+      <obj_property name="ElementShortName">o_median_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_median_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/median" type="array">
+      <obj_property name="ElementShortName">median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">median[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/none" type="array">
+      <obj_property name="ElementShortName">none[7:0]</obj_property>
+      <obj_property name="ObjectShortName">none[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data00" type="array">
+      <obj_property name="ElementShortName">data00[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data00[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data01" type="array">
+      <obj_property name="ElementShortName">data01[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data01[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data02" type="array">
+      <obj_property name="ElementShortName">data02[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data02[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data03" type="array">
+      <obj_property name="ElementShortName">data03[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data03[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data04" type="array">
+      <obj_property name="ElementShortName">data04[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data04[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data10" type="array">
+      <obj_property name="ElementShortName">data10[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data10[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data11" type="array">
+      <obj_property name="ElementShortName">data11[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data11[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data12" type="array">
+      <obj_property name="ElementShortName">data12[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data12[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data13" type="array">
+      <obj_property name="ElementShortName">data13[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data13[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data14" type="array">
+      <obj_property name="ElementShortName">data14[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data14[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data20" type="array">
+      <obj_property name="ElementShortName">data20[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data20[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data21" type="array">
+      <obj_property name="ElementShortName">data21[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data21[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data22" type="array">
+      <obj_property name="ElementShortName">data22[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data22[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data23" type="array">
+      <obj_property name="ElementShortName">data23[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data23[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data24" type="array">
+      <obj_property name="ElementShortName">data24[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data24[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data30" type="array">
+      <obj_property name="ElementShortName">data30[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data30[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data31" type="array">
+      <obj_property name="ElementShortName">data31[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data31[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data32" type="array">
+      <obj_property name="ElementShortName">data32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data33" type="array">
+      <obj_property name="ElementShortName">data33[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data33[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data34" type="array">
+      <obj_property name="ElementShortName">data34[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data34[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data40" type="array">
+      <obj_property name="ElementShortName">data40[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data40[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data41" type="array">
+      <obj_property name="ElementShortName">data41[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data41[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data42" type="array">
+      <obj_property name="ElementShortName">data42[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data42[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data43" type="array">
+      <obj_property name="ElementShortName">data43[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data43[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/data44" type="array">
+      <obj_property name="ElementShortName">data44[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data44[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line0_data" type="array">
+      <obj_property name="ElementShortName">line0_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line0_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line1_data" type="array">
+      <obj_property name="ElementShortName">line1_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line1_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line2_data" type="array">
+      <obj_property name="ElementShortName">line2_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line2_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line3_data" type="array">
+      <obj_property name="ElementShortName">line3_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line3_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line4_data" type="array">
+      <obj_property name="ElementShortName">line4_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line4_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line0_o_min" type="array">
+      <obj_property name="ElementShortName">line0_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line0_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line0_o_min_medium" type="array">
+      <obj_property name="ElementShortName">line0_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line0_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line0_median" type="array">
+      <obj_property name="ElementShortName">line0_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line0_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line0_max_medium" type="array">
+      <obj_property name="ElementShortName">line0_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line0_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line0_max" type="array">
+      <obj_property name="ElementShortName">line0_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line0_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line1_o_min" type="array">
+      <obj_property name="ElementShortName">line1_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line1_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line1_o_min_medium" type="array">
+      <obj_property name="ElementShortName">line1_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line1_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line1_median" type="array">
+      <obj_property name="ElementShortName">line1_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line1_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line1_max_medium" type="array">
+      <obj_property name="ElementShortName">line1_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line1_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line1_max" type="array">
+      <obj_property name="ElementShortName">line1_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line1_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line2_o_min" type="array">
+      <obj_property name="ElementShortName">line2_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line2_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line2_o_min_medium" type="array">
+      <obj_property name="ElementShortName">line2_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line2_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line2_median" type="array">
+      <obj_property name="ElementShortName">line2_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line2_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line2_max_medium" type="array">
+      <obj_property name="ElementShortName">line2_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line2_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line2_max" type="array">
+      <obj_property name="ElementShortName">line2_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line2_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line3_o_min" type="array">
+      <obj_property name="ElementShortName">line3_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line3_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line3_o_min_medium" type="array">
+      <obj_property name="ElementShortName">line3_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line3_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line3_median" type="array">
+      <obj_property name="ElementShortName">line3_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line3_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line3_max_medium" type="array">
+      <obj_property name="ElementShortName">line3_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line3_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line3_max" type="array">
+      <obj_property name="ElementShortName">line3_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line3_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line4_o_min" type="array">
+      <obj_property name="ElementShortName">line4_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line4_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line4_o_min_medium" type="array">
+      <obj_property name="ElementShortName">line4_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line4_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line4_median" type="array">
+      <obj_property name="ElementShortName">line4_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line4_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line4_max_medium" type="array">
+      <obj_property name="ElementShortName">line4_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line4_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/line4_max" type="array">
+      <obj_property name="ElementShortName">line4_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line4_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_0_o_min" type="array">
+      <obj_property name="ElementShortName">colm_0_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_0_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_0_o_min_medium" type="array">
+      <obj_property name="ElementShortName">colm_0_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_0_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_0_median" type="array">
+      <obj_property name="ElementShortName">colm_0_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_0_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_0_max_medium" type="array">
+      <obj_property name="ElementShortName">colm_0_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_0_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_0_max" type="array">
+      <obj_property name="ElementShortName">colm_0_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_0_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_1_o_min" type="array">
+      <obj_property name="ElementShortName">colm_1_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_1_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_1_o_min_medium" type="array">
+      <obj_property name="ElementShortName">colm_1_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_1_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_1_median" type="array">
+      <obj_property name="ElementShortName">colm_1_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_1_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_1_max_medium" type="array">
+      <obj_property name="ElementShortName">colm_1_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_1_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_1_max" type="array">
+      <obj_property name="ElementShortName">colm_1_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_1_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_2_o_min" type="array">
+      <obj_property name="ElementShortName">colm_2_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_2_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_2_o_min_medium" type="array">
+      <obj_property name="ElementShortName">colm_2_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_2_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_2_median" type="array">
+      <obj_property name="ElementShortName">colm_2_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_2_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_2_max_medium" type="array">
+      <obj_property name="ElementShortName">colm_2_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_2_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_2_max" type="array">
+      <obj_property name="ElementShortName">colm_2_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_2_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_3_o_min" type="array">
+      <obj_property name="ElementShortName">colm_3_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_3_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_3_o_min_medium" type="array">
+      <obj_property name="ElementShortName">colm_3_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_3_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_3_median" type="array">
+      <obj_property name="ElementShortName">colm_3_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_3_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_3_max_medium" type="array">
+      <obj_property name="ElementShortName">colm_3_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_3_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_3_max" type="array">
+      <obj_property name="ElementShortName">colm_3_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_3_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_4_o_min" type="array">
+      <obj_property name="ElementShortName">colm_4_o_min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_4_o_min[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_4_o_min_medium" type="array">
+      <obj_property name="ElementShortName">colm_4_o_min_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_4_o_min_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_4_median" type="array">
+      <obj_property name="ElementShortName">colm_4_median[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_4_median[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_4_max_medium" type="array">
+      <obj_property name="ElementShortName">colm_4_max_medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_4_max_medium[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/colm_4_max" type="array">
+      <obj_property name="ElementShortName">colm_4_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">colm_4_max[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/reg_data_valid1" type="logic">
+      <obj_property name="ElementShortName">reg_data_valid1</obj_property>
+      <obj_property name="ObjectShortName">reg_data_valid1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/reg_data_valid2" type="logic">
+      <obj_property name="ElementShortName">reg_data_valid2</obj_property>
+      <obj_property name="ObjectShortName">reg_data_valid2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/reg_data_valid3" type="logic">
+      <obj_property name="ElementShortName">reg_data_valid3</obj_property>
+      <obj_property name="ObjectShortName">reg_data_valid3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/reg_data_valid4" type="logic">
+      <obj_property name="ElementShortName">reg_data_valid4</obj_property>
+      <obj_property name="ObjectShortName">reg_data_valid4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_median/DUT/reg_data_valid5" type="logic">
+      <obj_property name="ElementShortName">reg_data_valid5</obj_property>
+      <obj_property name="ObjectShortName">reg_data_valid5</obj_property>
+   </wvobject>
+</wave_config>

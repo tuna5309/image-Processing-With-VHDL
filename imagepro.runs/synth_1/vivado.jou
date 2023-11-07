@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Oct 10 16:48:48 2023
+# Process ID: 18404
+# Current directory: C:/Users/Neta/Desktop/pro/imagepro/imagepro.runs/synth_1
+# Command line: vivado.exe -log matrix.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source matrix.tcl
+# Log file: C:/Users/Neta/Desktop/pro/imagepro/imagepro.runs/synth_1/matrix.vds
+# Journal file: C:/Users/Neta/Desktop/pro/imagepro/imagepro.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source matrix.tcl -notrace

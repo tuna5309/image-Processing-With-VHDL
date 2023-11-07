@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../imagepro.srcs/sources_1/ip/cordic_0/sim/cordic_0.vhd" \
+"../../../../imagepro.srcs/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd" \
+"../../../../imagepro.srcs/sources_1/new/sobelfilter.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../imagepro.srcs/sources_1/new/matrix.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../imagepro.srcs/sim_1/new/tb_sobel.vhd" \
+
+# Do not sort compile order
+nosort
